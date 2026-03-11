@@ -7,7 +7,7 @@ Mira 设计系统的 Design Token，基于 W3C DTCG 标准格式，支持 Light 
 ## 文件说明
 
 ```
-├── tokens-fixed.json     # 源 Token 文件（从 Figma 导出后修复）
+├── tokens.json     # 源 Token 文件（从 Figma 导出后修复）
 ├── sd.config.js          # Style Dictionary 构建配置
 ├── package.json
 └── dist/                 # 构建产物（运行 npm run build 后生成）
