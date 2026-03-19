@@ -6907,7 +6907,7 @@
           "com.figma.hiddenFromPublishing": false
         },
         "$type": "color",
-        "$value": "{colors.neutral.800}"
+        "$value": "{colors.neutral.600}"
       },
       "muted-foreground": {
         "$extensions": {
