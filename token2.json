@@ -131,6 +131,16 @@
           },
           "$type": "color",
           "$value": "#4f6bff"
+        },
+        "neutral-700-alpha-30": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#404040b3"
         }
       },
       "slate": {
@@ -6847,7 +6857,7 @@
           "com.figma.hiddenFromPublishing": false
         },
         "$type": "color",
-        "$value": "{colors.base.neutral-700-alpha-10}"
+        "$value": "{colors.base.neutral-700-alpha-30}"
       },
       "card-foreground": {
         "$extensions": {
