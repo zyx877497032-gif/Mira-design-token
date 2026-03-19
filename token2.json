@@ -6907,7 +6907,7 @@
           "com.figma.hiddenFromPublishing": false
         },
         "$type": "color",
-        "$value": "{colors.neutral.700}"
+        "$value": "{colors.neutral.800}"
       },
       "muted-foreground": {
         "$extensions": {
@@ -6978,7 +6978,7 @@
           "com.figma.hiddenFromPublishing": false
         },
         "$type": "color",
-        "$value": "{colors.neutral.700}"
+        "$value": "{colors.neutral.600}"
       },
       "secondary-foreground": {
         "$extensions": {
@@ -6988,7 +6988,7 @@
           "com.figma.hiddenFromPublishing": false
         },
         "$type": "color",
-        "$value": "{colors.neutral.400}"
+        "$value": "{colors.neutral.300}"
       },
       "sidebar": {
         "$extensions": {
