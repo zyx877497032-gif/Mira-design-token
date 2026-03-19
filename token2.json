@@ -32,7 +32,7 @@
           "$type": "color",
           "$value": "#ffffff00"
         },
-        "step-light": {
+        "cool-gray-50": {
           "$extensions": {
             "com.figma.scopes": [
               "ALL_SCOPES"
@@ -42,7 +42,7 @@
           "$type": "color",
           "$value": "#f4f8fb"
         },
-        "step-dark": {
+        "navy-alpha-20": {
           "$extensions": {
             "com.figma.scopes": [
               "ALL_SCOPES"
@@ -52,7 +52,7 @@
           "$type": "color",
           "$value": "#0b153233"
         },
-        "destructive-bg-dark": {
+        "red-600-alpha-24": {
           "$extensions": {
             "com.figma.scopes": [
               "ALL_SCOPES"
@@ -62,7 +62,7 @@
           "$type": "color",
           "$value": "#dc26263d"
         },
-        "destructive-bg-light": {
+        "red-600-alpha-15": {
           "$extensions": {
             "com.figma.scopes": [
               "ALL_SCOPES"
@@ -72,7 +72,7 @@
           "$type": "color",
           "$value": "#dc262626"
         },
-        "outline-bg-light": {
+        "zinc-900-alpha-15": {
           "$extensions": {
             "com.figma.scopes": [
               "ALL_SCOPES"
@@ -81,16 +81,6 @@
           },
           "$type": "color",
           "$value": "#18181b26"
-        },
-        "outline-bg-dark": {
-          "$extensions": {
-            "com.figma.scopes": [
-              "ALL_SCOPES"
-            ],
-            "com.figma.hiddenFromPublishing": false
-          },
-          "$type": "color",
-          "$value": "#ffffff26"
         },
         "neutral-800-alpha-40": {
           "$extensions": {
@@ -110,9 +100,10 @@
             "com.figma.hiddenFromPublishing": false
           },
           "$type": "color",
-          "$value": "#1e1e1e"
+          "$value": "#1e1e1e",
+          "$description": "明度在neutral 800 和 900 中间值"
         },
-        "neutral-700-alpha-10": {
+        "neutral-700-alpha-70": {
           "$extensions": {
             "com.figma.scopes": [
               "ALL_SCOPES"
@@ -120,9 +111,9 @@
             "com.figma.hiddenFromPublishing": false
           },
           "$type": "color",
-          "$value": "#404040cc"
+          "$value": "#404040b3"
         },
-        "interactive color": {
+        "bright-blue": {
           "$extensions": {
             "com.figma.scopes": [
               "ALL_SCOPES"
@@ -4531,7 +4522,7 @@
           "com.figma.hiddenFromPublishing": false
         },
         "$type": "color",
-        "$value": "{colors.base.destructive-bg-light}"
+        "$value": "{colors.base.red-600-alpha-15}"
       },
       "destructive-foreground": {
         "$extensions": {
@@ -4754,7 +4745,7 @@
         "$type": "color",
         "$value": "{colors.zinc.50}"
       },
-      "files": {
+      "attachment-background": {
         "$extensions": {
           "com.figma.scopes": [
             "ALL_SCOPES"
@@ -4762,9 +4753,10 @@
           "com.figma.hiddenFromPublishing": false
         },
         "$type": "color",
-        "$value": "{colors.zinc.100}"
+        "$value": "{colors.zinc.100}",
+        "$description": "用于附件的背景色"
       },
-      "input-bg-subtle": {
+      "input-background-subtle": {
         "$extensions": {
           "com.figma.scopes": [
             "ALL_SCOPES"
@@ -4772,7 +4764,8 @@
           "com.figma.hiddenFromPublishing": false
         },
         "$type": "color",
-        "$value": "{colors.base.white}"
+        "$value": "{colors.base.white}",
+        "$description": "用于input框内背景色"
       },
       "step-background": {
         "$extensions": {
@@ -4782,9 +4775,10 @@
           "com.figma.hiddenFromPublishing": false
         },
         "$type": "color",
-        "$value": "{colors.base.step-light}"
+        "$value": "{colors.base.cool-gray-50}",
+        "$description": "思维链step工具，正在运行中状态背景色"
       },
-      "input-bg-accent": {
+      "input-background-accent": {
         "$extensions": {
           "com.figma.scopes": [
             "ALL_SCOPES"
@@ -4792,7 +4786,8 @@
           "com.figma.hiddenFromPublishing": false
         },
         "$type": "color",
-        "$value": "{colors.accent}"
+        "$value": "{colors.accent}",
+        "$description": "用于input框内强调背景色"
       },
       "surface-1": {
         "$extensions": {
@@ -4802,7 +4797,8 @@
           "com.figma.hiddenFromPublishing": false
         },
         "$type": "color",
-        "$value": "{colors.zinc.100}"
+        "$value": "{colors.zinc.100}",
+        "$description": "默认次级容器"
       },
       "surface-2": {
         "$extensions": {
@@ -4812,7 +4808,8 @@
           "com.figma.hiddenFromPublishing": false
         },
         "$type": "color",
-        "$value": "{colors.zinc.200}"
+        "$value": "{colors.zinc.200}",
+        "$description": "更强调容器"
       },
       "surface-3": {
         "$extensions": {
@@ -4822,7 +4819,8 @@
           "com.figma.hiddenFromPublishing": false
         },
         "$type": "color",
-        "$value": "{colors.zinc.300}"
+        "$value": "{colors.zinc.300}",
+        "$description": "背景面板3级"
       },
       "text-foreground": {
         "$extensions": {
@@ -4832,7 +4830,8 @@
           "com.figma.hiddenFromPublishing": false
         },
         "$type": "color",
-        "$value": "{colors.foreground}"
+        "$value": "{colors.foreground}",
+        "$description": "1级文字色"
       },
       "text-muted-foreground": {
         "$extensions": {
@@ -4842,7 +4841,8 @@
           "com.figma.hiddenFromPublishing": false
         },
         "$type": "color",
-        "$value": "{colors.muted-foreground}"
+        "$value": "{colors.muted-foreground}",
+        "$description": "2级文字色"
       },
       "text-tertiary-foreground": {
         "$extensions": {
@@ -4852,7 +4852,19 @@
           "com.figma.hiddenFromPublishing": false
         },
         "$type": "color",
-        "$value": "{colors.zinc.400}"
+        "$value": "{colors.zinc.400}",
+        "$description": "3级文字色（辅助）"
+      },
+      "brand-interactive": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{colors.base.bright-blue}",
+        "$description": "用于交互色1"
       }
     },
     "shadow": {
@@ -6847,7 +6859,7 @@
           "com.figma.hiddenFromPublishing": false
         },
         "$type": "color",
-        "$value": "{colors.base.neutral-700-alpha-10}"
+        "$value": "{colors.base.neutral-700-alpha-70}"
       },
       "card-foreground": {
         "$extensions": {
@@ -6867,7 +6879,7 @@
           "com.figma.hiddenFromPublishing": false
         },
         "$type": "color",
-        "$value": "{colors.base.destructive-bg-dark}"
+        "$value": "{colors.base.red-600-alpha-24}"
       },
       "destructive-foreground": {
         "$extensions": {
@@ -6988,7 +7000,7 @@
           "com.figma.hiddenFromPublishing": false
         },
         "$type": "color",
-        "$value": "{colors.neutral.400}"
+        "$value": "{colors.neutral.300}"
       },
       "sidebar": {
         "$extensions": {
@@ -7090,7 +7102,7 @@
         "$type": "color",
         "$value": "{colors.neutral.500}"
       },
-      "files": {
+      "attachment-background": {
         "$extensions": {
           "com.figma.scopes": [
             "ALL_SCOPES"
@@ -7098,9 +7110,10 @@
           "com.figma.hiddenFromPublishing": false
         },
         "$type": "color",
-        "$value": "{colors.neutral.700}"
+        "$value": "{colors.neutral.700}",
+        "$description": "用于附件的背景色"
       },
-      "input-bg-subtle": {
+      "input-background-subtle": {
         "$extensions": {
           "com.figma.scopes": [
             "ALL_SCOPES"
@@ -7108,7 +7121,8 @@
           "com.figma.hiddenFromPublishing": false
         },
         "$type": "color",
-        "$value": "{colors.alpha.95}"
+        "$value": "{colors.alpha.95}",
+        "$description": "用于input框内背景色"
       },
       "step-background": {
         "$extensions": {
@@ -7118,9 +7132,10 @@
           "com.figma.hiddenFromPublishing": false
         },
         "$type": "color",
-        "$value": "{colors.base.step-dark}"
+        "$value": "{colors.base.navy-alpha-20}",
+        "$description": "思维链step工具，正在运行中状态背景色"
       },
-      "input-bg-accent": {
+      "input-background-accent": {
         "$extensions": {
           "com.figma.scopes": [
             "ALL_SCOPES"
@@ -7128,7 +7143,8 @@
           "com.figma.hiddenFromPublishing": false
         },
         "$type": "color",
-        "$value": "{colors.alpha.90}"
+        "$value": "{colors.alpha.90}",
+        "$description": "用于input框内强调背景色"
       },
       "surface-1": {
         "$extensions": {
@@ -7138,7 +7154,8 @@
           "com.figma.hiddenFromPublishing": false
         },
         "$type": "color",
-        "$value": "{colors.background}"
+        "$value": "{colors.background}",
+        "$description": "默认次级容器"
       },
       "surface-2": {
         "$extensions": {
@@ -7148,7 +7165,8 @@
           "com.figma.hiddenFromPublishing": false
         },
         "$type": "color",
-        "$value": "{colors.muted}"
+        "$value": "{colors.muted}",
+        "$description": "更强调容器"
       },
       "surface-3": {
         "$extensions": {
@@ -7158,7 +7176,8 @@
           "com.figma.hiddenFromPublishing": false
         },
         "$type": "color",
-        "$value": "{colors.neutral.600}"
+        "$value": "{colors.neutral.600}",
+        "$description": "背景面板3级"
       },
       "text-foreground": {
         "$extensions": {
@@ -7168,7 +7187,8 @@
           "com.figma.hiddenFromPublishing": false
         },
         "$type": "color",
-        "$value": "{colors.foreground}"
+        "$value": "{colors.foreground}",
+        "$description": "1级文字色"
       },
       "text-muted-foreground": {
         "$extensions": {
@@ -7178,7 +7198,8 @@
           "com.figma.hiddenFromPublishing": false
         },
         "$type": "color",
-        "$value": "{colors.muted-foreground}"
+        "$value": "{colors.muted-foreground}",
+        "$description": "2级文字色"
       },
       "text-tertiary-foreground": {
         "$extensions": {
@@ -7188,7 +7209,19 @@
           "com.figma.hiddenFromPublishing": false
         },
         "$type": "color",
-        "$value": "{colors.neutral.500}"
+        "$value": "{colors.neutral.500}",
+        "$description": "3级文字色（辅助）"
+      },
+      "brand-interactive": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{colors.base.bright-blue}",
+        "$description": "用于交互色1"
       }
     },
     "shadow": {
@@ -9172,7 +9205,17 @@
         "com.figma.hiddenFromPublishing": false
       },
       "$type": "color",
-      "$value": "{colors.base.step-light}"
+      "$value": "{colors.base.cool-gray-50}"
+    },
+    "outline-background": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      },
+      "$type": "color",
+      "$value": "{colors.base.zinc-900-alpha-15}"
     }
   },
   " 3、Component （Semantics）/Dark": {
@@ -9214,7 +9257,17 @@
         "com.figma.hiddenFromPublishing": false
       },
       "$type": "color",
-      "$value": "{colors.base.step-dark}"
+      "$value": "{colors.base.navy-alpha-20}"
+    },
+    "outline-background": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      },
+      "$type": "color",
+      "$value": "{colors.alpha.20}"
     }
   },
   "4、Custom（Styles / Decisions）/Default": {
